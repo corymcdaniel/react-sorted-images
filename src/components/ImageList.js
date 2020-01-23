@@ -7,7 +7,7 @@ const ImageList = ({items}) => {
     return (
       <li key={i}>
         <h3>{item.text}</h3>
-        <img className={img} src={item.src} style={{height: '100px', width: '100px'}}/>
+        <img alt={item.text} className={img} src={item.src} style={{height: '100px', width: '100px'}}/>
         <div>{item.imgId}</div>
         <div>{item.src}</div>
       </li>
